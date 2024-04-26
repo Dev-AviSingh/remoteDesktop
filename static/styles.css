@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: roboto;
+    background-image: url(curvy.png);
+}
+
+.scannerBody{
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+}
+#qrScanner{
+}
+
+.title{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.recentDevices{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+    height: 500px;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.device{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+    width: 80%;
+    font-size: 1.5rem;
+}
